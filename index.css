@@ -1,0 +1,157 @@
+/*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+html {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 62.5%;
+  font-size: 16px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 150px;
+    padding-bottom: 10px;
+}
+
+.row-container { 
+    display: inline-block;
+}
+
+.text-container {
+    display: inline-block;
+} 
+
+header nav{
+    height: 20px;
+    position: relative;
+    top:-70px;
+    font-size: 2rem;
+}
+
+footer nav{
+    height: 75px;
+    position: relative;
+    padding-top: 50px;
+    font-size: 2rem;
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0 0 0 5%;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+  
+.plan {
+    background-color: #FF764E;
+}
+
+.learn {
+    background-color: #5ED3EB;
+}
+
+.get-involved {
+    background-color: #FFCD69;
+}
+
+header h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
+    padding-bottom: 10px;
+}
+
+header img{
+    display: inline;
+    border-radius: 50%;
+}
+  
+
+footer{
+    background-color: #F9E7DC;
+}
+
+footer img {
+    height: 30vh;
+    width:100%;
+    display: block;
+}
+
+span {
+    font-weight: bolder;
+}
+
+h1, .p1{
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    margin-left:250px;
+    padding: 10px;
+  }
+
+#beautifulgowns {
+    background-color: #DDB9A3;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.numbertwo {
+    margin: 0 35% 0;
+    width: 25%;
+    text-align: center;
+}
